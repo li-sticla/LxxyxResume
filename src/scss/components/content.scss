@@ -15,7 +15,7 @@ $white: #fff;
 section {
   margin-bottom: 14px;
   @include media("print") {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 }
 
@@ -84,12 +84,12 @@ dd {
     font-weight: 700;
     float: left;
     clear: left;
-    color: teal;
+    color: rgb(144, 117, 219);
   }
 }
 
 .sec-content {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   margin-left: 20px;
 }
 
@@ -165,7 +165,7 @@ dd {
     .progress-bar {
       height: 100%;
       border-radius: 4px;
-      background: teal;
+      background: rgb(144, 117, 219);
       .progress-label {
         font-size: 19px;
         float: right;
@@ -197,6 +197,7 @@ dd {
   .experience-task {
     font-size: 15px;
     margin-left: 27px;
+    margin-bottom: 3px;
     display: flex;
     align-items: center;
     @include media("print") {

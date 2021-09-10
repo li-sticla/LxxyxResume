@@ -2,7 +2,7 @@ header {
   overflow: hidden;
   padding: 30px 45px;
   color: #fff;
-  background-color: #333;
+  background-color: rgb(88, 26, 139);
   @include media("<tablet") {
     padding: 30px 10px;
   }
@@ -42,7 +42,7 @@ header {
     text-align: right;
   }
   h1 {
-    font-size: 72px;
+    font-size: 65px;
     line-height: 1;
     margin: 5px 0;
     padding: 5px 0;
@@ -95,7 +95,7 @@ address {
     text-decoration: none;
     color: #fff;
     &:hover {
-      color: #a3d3d1;
+      color: rgb(184, 116, 197)
     }
   }
 }
