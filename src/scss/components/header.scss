@@ -53,6 +53,15 @@ header {
     margin: 5px 0;
     padding: 5px 6px;
   }
+  a {
+    font-size: 20px;
+    transition: 0.3s ease-out;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      color: rgb(184, 116, 197)
+    }
+  }
 }
 
 address {
