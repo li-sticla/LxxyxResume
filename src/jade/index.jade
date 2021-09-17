@@ -100,6 +100,11 @@ block skills
           | Skills
     .timeline-wrapper
       ul.sec-content.timeline
+        li.timeline-item
+          each item in skills.summary
+            dd.skill-description
+              strong= item.name+"："
+              span=item.content.join('、')
         li.timeline-item.icon-flags
           h3.timeline-title
             span.skill= skills.flags.name
@@ -108,6 +113,14 @@ block skills
               dt.skill-name!= skill.name
               each description in skill.description
                 dd.skill-description.icon-star!= description
+        //- li.timeline-item.icon-flags
+        //-   h3.timeline-title
+        //-     span.skill= skills.flags.name
+        //-   each skill in skills.flags.skill
+        //-     dl.skill-content
+        //-       dt.skill-name!= skill.name
+        //-       each description in skill.description
+        //-         dd.skill-description.icon-star!= description
         if skills.cloud
           li.timeline-item.icon-cloud
             h3.timeline-title
