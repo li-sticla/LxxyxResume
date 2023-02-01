@@ -4,7 +4,7 @@ Guide:
   - PDF 会自动生成，文件名可以在 gulp.js 里改
   - PDF 的地址，将这个文件里pdf部分改为你的PDF文件名即可
 
-title: 袁子超 - 前端开发工程师（应届）
+title: 袁子超 - 前端开发工程师
 
 aside:
   - href: https://github.com/li-sticla/LxxyxResume
@@ -15,7 +15,7 @@ aside:
 header:
   title:
     name: 袁子超
-    job: 前端开发工程师（应届）
+    job: 前端开发工程师
   contacts:
     phone: 17779407062
     mail: yuanzichao@163.com
@@ -24,7 +24,7 @@ header:
       href: https://github.com/li-sticla
       name: li-sticla
     blog:
-      href: https://blog.sticla.top/
+      href: https://github.com/li-sticla
       name: sticla的技术博客
 
 education:
@@ -45,44 +45,44 @@ language:
 
 experience:
   - title:
-      place: 项目管理看板应用
-      time: 2021.07 - 至今
+      place: 阿里巴巴-银泰商业
+      time: 2022.08 - 2023.02
     content:
-      position: 产品、设计、前端、维护
+      position: 前端开发工程师
+      tasks:
+        - 参与 C 端交易链路升级，基于 Rax 一码多端方案，实现喵街客户端、小程序页面统一
+        - 与客户端团队协作推进 Astore 方案在下单页/购物车的落地和升级，做到逻辑后移，且秒开率从 80% 提升到 90%，采取事件链模式后开发效率翻倍
+        - 调研并实施了交易链路多端监控收口方案，相关页面接入精细化业务监控上报，自动向钉钉群内报警，线上问题发现率达 25% 以上
+        - 发现小程序 subtree 工程的子包管理混乱痛点，为此自制统一管理脚手架，一键操作规范团队行为
+  - title:
+      place: 阿里巴巴-银泰商业
+      time: 2022.02 - 2022.06
+    content:
+      position: 实习前端开发工程师
+      tasks:
+        - 参与 B 端会员业务，了解了业务商业化模式，提升了对业务的认知        
+        - 借助天马、斑马、钉钉宜搭等低代码平台开发 活动会场页面，对其在前端领域的应用有基本认知
+        - 理解集团常用埋点方案，对接 A+ 采集平台和 FBI 报表平台，能够进行简单的用户行为分析
+  - title:
+      place: 项目管理看板应用
+      time: 2021.07 - 2021.09
+    content:
+      position: 产品、设计、前端、测试
       tasks:
         - '<a href="https://k1sumi.github.io" target="_blank">线上地址</a>'
-        - '<a href="https://github.com/li-sticla/my-react-app" target="_blank">GitHub 地址</a>'
-        - '<a href="https://hello-cloudbase-0g7oeewhef165fae-1301477084.tcloudbaseapp.com" target="_blank">项目线上文档</a>'
-        - 创意源自 Worktile 项目管理工具        
-        - 是前端工程化和状态管理多方案的具体实践
+        - '<a href="https://github.com/li-sticla/my-react-app" target="_blank">GitHub 地址</a>'      
         - 从技术选型到规范制定、组件测试到性能优化落地了一套具体方案
-        - 通过缓存和优化技术，将应用渲染控制在0.3s内，提升了用户体验
-        - 负责：设计情景、确定产品原型、需求
         - 基于 TypeScript + React + Ant Design 设计并开发前端
-        - 基于 React-Query + React-Redux 管理服务端和客户端状态
+        - 基于 React-Query + React-Redux 管理及缓存状态
         - 基于 Mock Service Worker 模拟数据
   - title:
-      place: 新闻发布管理平台
-      time: 2020.10 - 2021.01
-    content:
-      position: 前端、设计
-      tasks:
-        - '<a href="https://github.com/li-sticla/Javaweb" target="_blank">GitHub 地址</a>'
-        - 基于 Vue 和 Webpack 开发的 SPA 应用
-        - 使用 vue 全家桶开发客户端，对于其使用有基本认识
-        - 与后端人员对接协作开发，期间积累了丰富经验
-        - 项目结束后复盘代码、总结经验和不足
-  - title:
-      place: 家园工作室 - 云家园信息服务平台
+      place: 南昌大学云家园信息服务平台
       time: 2018.09 - 2019.06
     content:
-      position: 前端、维护
+      position: 前端开发工程师
       tasks:
-        - 南昌大学学生工作信息服务平台
-        - 提供学生事务网上办理、信息查询等服务
-        - 负责：封装基础业务组件，降低项目整体耦合度
-        - 编写部分组件样式、动画
-        - 日常参与维护、修改 Bug 、部署项目等
+        - 封装基础业务组件，降低项目整体耦合度
+        - 基于 GitLab CI 建立自动化构建、部署体系
         - 优化代码结构和性能，确保为全校师生提供稳定的服务
 
 skills:
@@ -94,16 +94,16 @@ skills:
         - HTML 5
         - CSS 3
         - Node.js
-        - Kotlin
     - name: 其他库/工具
       content:
         - Redux
-        - React-Router
-        - React-Query
+        - React
+        - Rax
+        - Weex
         - BootStrap
         - json-server
-        - Umi 
-        - Dva
+        - Umi
+        - ICE
   flags:
     name: Web 前端
     skill:
@@ -117,35 +117,23 @@ skills:
         description:
           - 熟练使用 `ES 6/7/Next` 进行项目开发
           - 了解`常用的异步处理方案`，并用于实践中
-          - 了解 `TypeScript 语法和类型编程`，在个人项目中使用 TypeScript 开发
-          - 严格遵守 ESLint 规范及其他团队代码规范
+          - 了解 `TypeScript 语法和类型编程`，在多人项目中使用 TypeScript 开发
+          - 严格遵守 ESLint 规范及团队代码规范
       - name: 前端框架
         description:
-          - 理解 `React 原理`，日常使用 React 编写网页
-          - 熟悉并日常使用 `Ant Design` 作为 UI 框架
-          - 了解并使用过 `Vue` 开发项目
-      - name: 前端工程化实践
+          - 理解 `React 原理`，工作中 B 端使用 React，C 端使用 Rax 作为 DSL
+          - 熟悉并日常使用 `Ant Design/Fusion Design` 作为 UI 框架
+          - 基于 Rax 框架的`微信/支付宝小程序`以及 `H5/Native` 开发经验
+      - name: 前端实践
         description:
           - 使用 `Webpack` 构建前端应用，了解 `Gulp`
-          - 掌握多种前端优化方案，能从零配置并优化项目
-          - 理解前端工程化，有具体项目实践
+          - 了解前端埋点与错误监控常用方案
+          - 理解前端工程化，`自制脚手架管理subtree工程子包`
+          - 根据后端 API 规范 `Mock 测试数据`
+          - 使用 charles 抓包网络请求
+          - 使用 Jest 和 Mocha 等框架完成`单元测试`
       - name: 其它知识
         description:
           - 理解`浏览器原理`
           - 了解 `TCP/IP 模型`和 `HTTP 1.1、2` 等协议常用的功能和特性
-          - 掌握基本数据结构和算法
-          - 根据后端 API 规范 `Mock 测试数据`
-          - 使用 Jest 和 Mocha 等框架完成单元测试        
-  gears:
-    name: 其它
-    skill:
-      - name: 性格
-        description:
-          - 性格谨慎细致，能够耐心地分析并制定方案
-          - 对计算机与编程有极大热情，自学能力较强
-          - 有集体意识和责任意识，乐于帮助他人，适合团队协同工作
-      - name: 工具使用
-        description:
-          - 熟练使用 `Git` 进行日常开发
-          - 使用合适的 IDE/编辑器进行日常高效率开发
-          - 合理利用 Google、StackOverflow、GitHub Issues 等解决技术方面的困惑
+          - 掌握基本数据结构和算法       
